@@ -1,0 +1,47 @@
+body, html {
+  font-family: 'Inconsolata', monospace;
+  height: 100%;
+  width: 100%;
+}
+
+.centred-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centred-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+a {
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.logo {
+  width: 400px;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+  h1 {
+    font-size: 30px;
+  }
+  a {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+}
